@@ -498,7 +498,7 @@ def user_id():
     os.system('clear')
     print logo
     print 50* "─"
-    print "Masukkan username , \ncontoh :www.facebook.com/jurig.paralatan\nhanya masukkan (jurig.paralatan) nya saja, tanpa tanda kurung"
+    print "Masukkan username , \ncontoh :www.facebook.com/jurig.paralatan\hanya masukkan (jurig.paralatan) nya saja, tanpa tanda kurung"
     ling = ('https://www.facebook.com/')
     url = ling+raw_input("[-] Username : ")
     idre = re.compile('"entity_id":"([0-9]+)"')
