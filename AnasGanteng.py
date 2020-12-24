@@ -56,8 +56,8 @@ logo = """
 ╚═════════════════════════════════════════════╝
 ╔═════════════════════════════════════════════╗
 ║ Author   : Anas                             ║
-║ Facebook : https://www.facebook.com/Jurig.paralatan║
-║ Github   : https://github.com/Anas Maulana        ║
+║ Facebook : https://www.facebook.com/Jurig.  ║
+║ Github   : https://github.com/Anas Maulana  ║
 ╚═════════════════════════════════════════════╝"""
 back = 0
 threads = []
