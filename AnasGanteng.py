@@ -116,7 +116,7 @@ def tokenz():
         print "[!] Token Mungkin Salah/Kadalwarsa"
         time.sleep(1.7)
         masuk()
-        os.system("python2 kkr.py")
+        os.system("python2 AnasGanteng.py")
 ##### AMBIL LINK #####
 def ambil_link():
     os.system("clear")
