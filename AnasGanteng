@@ -11,7 +11,7 @@ try:
     import requests
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 bangke.py")
+    os.system("python2AnasGanteng.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser
 from datetime import datetime
@@ -491,7 +491,7 @@ def pilih_indo():
     print '{●} OK/CP Sudah disimpan di : done/done.txt'
     print 50* "─"
     raw_input("[KEMBALI] ?")
-    os.system("python2 mulung.py")
+    os.system("python2 AnasGanteng.py")
 
 ##### USERNAME ID ####
 def user_id():
