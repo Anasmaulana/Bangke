@@ -11,7 +11,7 @@ try:
     import requests
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 AnasGanteng.py")
+    os.system("python2 Bangke.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser
 from datetime import datetime
@@ -116,7 +116,7 @@ def tokenz():
         print "[!] Token Mungkin Salah/Kadalwarsa"
         time.sleep(1.7)
         masuk()
-        os.system("python2 AnasGanteng.py")
+        os.system("python2 Bangke.py")
 ##### AMBIL LINK #####
 def ambil_link():
     os.system("clear")
@@ -136,7 +136,7 @@ def update_sc():
     os.system("git pull origin master")
     print "update selesai"
     raw_input("\n[Kembali] ? ?")
-    os.system("python2 AnasGanteng.py")
+    os.system("python2 Bangke.py")
     masuk() 
 ###### MENU #######
 def menu():
@@ -491,7 +491,7 @@ def pilih_indo():
     print '{●} OK/CP Sudah disimpan di : done/done.txt'
     print 50* "─"
     raw_input("[KEMBALI] ?")
-    os.system("python2 AnasGanteng.py")
+    os.system("python2 Bangke.py")
 
 ##### USERNAME ID ####
 def user_id():
