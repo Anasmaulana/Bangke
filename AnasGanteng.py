@@ -136,7 +136,7 @@ def update_sc():
     os.system("git pull origin master")
     print "update selesai"
     raw_input("\n[Kembali] ? ?")
-    os.system("python2 kkr.py")
+    os.system("python2 AnasGanteng.py")
     masuk() 
 ###### MENU #######
 def menu():
