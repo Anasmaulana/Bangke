@@ -50,14 +50,14 @@ def jalan(z):
 #########LOGO#########
 logo = """
 ╔═════════════════════════════════════════════╗
-║             ANAS SANGAT GANTENG             ║
+║             KAUM REPORTING                  ║
 ║═════════════════════════════════════════════║
 ║     Crack Akun Facebook Indonesia only      ║
 ╚═════════════════════════════════════════════╝
 ╔═════════════════════════════════════════════╗
-║ Author   : Anas                             ║
-║ Facebook : https://www.facebook.com/Jurig.  ║
-║ Github   : https://github.com/Anas Maulana  ║
+║ Author   : Anas Maulana .XD                                    ║
+║ Facebook : https://www.facebook.com/Bams.alay       ║
+║ Github   : https://github.com/Anas Maulana          ║
 ╚═════════════════════════════════════════════╝"""
 back = 0
 threads = []
@@ -498,7 +498,7 @@ def user_id():
     os.system('clear')
     print logo
     print 50* "─"
-    print "Masukkan username , \ncontoh :www.facebook.com/jurig.paralatan\hanya masukkan (jurig.paralatan) nya saja, tanpa tanda kurung"
+    print "Masukkan username , \ncontoh :www.facebook.com/Bams.alay\hanya masukkan (Bams.alay) nya saja, tanpa tanda kurung"
     ling = ('https://www.facebook.com/')
     url = ling+raw_input("[-] Username : ")
     idre = re.compile('"entity_id":"([0-9]+)"')
